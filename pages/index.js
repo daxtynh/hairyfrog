@@ -7,7 +7,7 @@ import { Portfolio } from '@components/Portfolio.js'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="relative bg-gray-50 overflow-hidden">
       <Head>
         <title>Home Page!</title>
         <link rel="icon" href="/favicon.ico" />

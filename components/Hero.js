@@ -35,7 +35,7 @@ export function Hero() {
         aria-label="home"
         className="bg-white py-4 sm:py-4"
       >
-    <Container className="pt-20 pb-16 text-center lg:pt-32">
+    
     <div className="py-0.5 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
@@ -95,7 +95,7 @@ export function Hero() {
             </div>
         </div>
         </div>
-    </Container>
+    
     </section>
     )
 }
