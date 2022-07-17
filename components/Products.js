@@ -19,45 +19,41 @@ import { Container } from '@components/Container'
 const products = [
     {
       id: 1,
-      name: 'Cottey College',
-      price: '$48',
-      imageSrc: 'https://i.imgur.com/ByDyElH.jpg',
+      name: 'T-Shirts',
+      imageSrc: 'https://www.bulkapparel.com/image/fashion-wear/16813_f_fm.jpg',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
       id: 2,
-      name: 'Precision Coffee',
-      price: '$35',
-      imageSrc: 'https://i.imgur.com/l7TzX4O.jpg',
+      name: 'Hoodies',
+      imageSrc: 'https://www.bulkapparel.com/image/fashion-wear/19539_f_fm.jpg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
       id: 3,
-      name: 'Lady Tigers',
-      price: '$89',
-      imageSrc: 'https://i.imgur.com/0qH3cpP.jpg',
+      name: 'Polos',
+      imageSrc: 'https://www.bulkapparel.com/image/fashion-wear/18514_f_fm.jpg',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
       id: 4,
-      name: 'Fishing Tournament',
-      price: '$35',
-      imageSrc: 'https://i.imgur.com/0gR2jIU.jpg',
+      name: 'Hats',
+      imageSrc: 'https://www.bulkapparel.com/image/fashion-wear/4332_fm.jpg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     // More products...
   ]
   
-export function Portfolio() {
+export function Products() {
     return (
     <section
-        id="portfolio"
-        aria-label="portfolio"
+        id="products"
+        aria-label="products"
         className="bg-white py-4 sm:py-4"
       >
     <Container>
       <div className="bg-white">
-        <h1 className='text-center leading-6 text-3xl text-gray-400'>Portfolio</h1>
+        <h1 className='text-center leading-6 text-3xl text-gray-400'>Products</h1>
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
          

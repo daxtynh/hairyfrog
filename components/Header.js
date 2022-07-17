@@ -133,6 +133,12 @@ export default function Header() {
                     Home
                   </a>
                   <a
+                    href="#portfolio"
+                    className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                  >
+                    Portfolio
+                  </a>
+                  <a
                     href="#products"
                     className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                   >
@@ -143,12 +149,6 @@ export default function Header() {
                     className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                   >
                     About
-                  </a>
-                  <a
-                    href="#portfolio"
-                    className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                  >
-                    Portfolio
                   </a>
                 </div>
               </div>
